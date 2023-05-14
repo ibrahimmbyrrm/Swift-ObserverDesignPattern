@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		80A56E782A0A7EB10001934A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A56E772A0A7EB10001934A /* AppDelegate.swift */; };
 		80A56E7A2A0A7EB10001934A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A56E792A0A7EB10001934A /* SceneDelegate.swift */; };
-		80A56E7C2A0A7EB10001934A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A56E7B2A0A7EB10001934A /* ViewController.swift */; };
+		80A56E7C2A0A7EB10001934A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A56E7B2A0A7EB10001934A /* LoginViewController.swift */; };
 		80A56E7F2A0A7EB10001934A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A56E7D2A0A7EB10001934A /* Main.storyboard */; };
 		80A56E812A0A7EB10001934A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A56E802A0A7EB10001934A /* Assets.xcassets */; };
 		80A56E842A0A7EB10001934A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80A56E822A0A7EB10001934A /* LaunchScreen.storyboard */; };
+		80A56E8C2A0A81BD0001934A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A56E8B2A0A81BD0001934A /* HomeViewController.swift */; };
+		80A56E8E2A0A82980001934A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A56E8D2A0A82980001934A /* User.swift */; };
+		80A56E902A0A82D00001934A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A56E8F2A0A82D00001934A /* LoginViewModel.swift */; };
+		80A56E932A0A83310001934A /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A56E922A0A83310001934A /* ObservableObject.swift */; };
+		80A56E952A0A84820001934A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A56E942A0A84820001934A /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80A56E742A0A7EB10001934A /* ObserverDesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObserverDesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A56E772A0A7EB10001934A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80A56E792A0A7EB10001934A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80A56E7B2A0A7EB10001934A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80A56E7B2A0A7EB10001934A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		80A56E7E2A0A7EB10001934A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80A56E802A0A7EB10001934A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80A56E832A0A7EB10001934A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80A56E852A0A7EB10001934A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80A56E8B2A0A81BD0001934A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		80A56E8D2A0A82980001934A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		80A56E8F2A0A82D00001934A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		80A56E922A0A83310001934A /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		80A56E942A0A84820001934A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,28 @@
 		80A56E762A0A7EB10001934A /* ObserverDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				80A56E942A0A84820001934A /* NetworkService.swift */,
+				80A56E922A0A83310001934A /* ObservableObject.swift */,
+				80A56E912A0A82D80001934A /* LoginView */,
 				80A56E772A0A7EB10001934A /* AppDelegate.swift */,
 				80A56E792A0A7EB10001934A /* SceneDelegate.swift */,
-				80A56E7B2A0A7EB10001934A /* ViewController.swift */,
+				80A56E8B2A0A81BD0001934A /* HomeViewController.swift */,
 				80A56E7D2A0A7EB10001934A /* Main.storyboard */,
 				80A56E802A0A7EB10001934A /* Assets.xcassets */,
 				80A56E822A0A7EB10001934A /* LaunchScreen.storyboard */,
 				80A56E852A0A7EB10001934A /* Info.plist */,
+				80A56E8D2A0A82980001934A /* User.swift */,
 			);
 			path = ObserverDesignPattern;
+			sourceTree = "<group>";
+		};
+		80A56E912A0A82D80001934A /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				80A56E8F2A0A82D00001934A /* LoginViewModel.swift */,
+				80A56E7B2A0A7EB10001934A /* LoginViewController.swift */,
+			);
+			path = LoginView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A56E7C2A0A7EB10001934A /* ViewController.swift in Sources */,
+				80A56E7C2A0A7EB10001934A /* LoginViewController.swift in Sources */,
 				80A56E782A0A7EB10001934A /* AppDelegate.swift in Sources */,
+				80A56E952A0A84820001934A /* NetworkService.swift in Sources */,
+				80A56E902A0A82D00001934A /* LoginViewModel.swift in Sources */,
 				80A56E7A2A0A7EB10001934A /* SceneDelegate.swift in Sources */,
+				80A56E932A0A83310001934A /* ObservableObject.swift in Sources */,
+				80A56E8E2A0A82980001934A /* User.swift in Sources */,
+				80A56E8C2A0A81BD0001934A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
